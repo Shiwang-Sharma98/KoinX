@@ -15,7 +15,7 @@ const TradingViewChart = () => {
           interval: '1H',
           timezone: 'Etc/UTC',
           theme: 'light',
-          style: '1',
+          style: '2', // Change style to "2" for line graph
           locale: 'en',
           toolbar_bg: '#f1f3f6',
           enable_publishing: false,

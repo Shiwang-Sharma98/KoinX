@@ -3,6 +3,7 @@ import TradingViewChart from "../components/TradingViewChart";
 import TrendingCoins from "../components/TrendingCoins";
 import KoinXBanner from "../components/KoinXBanner";
 import BitcoinStats from "../components/BitcoinStats";
+import Sentiment from "../components/Sentiment";
 
 const Home = () => {
   const [bitcoinData, setBitcoinData] = useState(null);
@@ -90,6 +91,9 @@ const Home = () => {
       {/* Bitcoin Stats */}
       <div className="mt-6">
         <BitcoinStats bitcoinData={bitcoinData} />
+      </div>
+      <div className="mt-6">
+        <Sentiment></Sentiment>
       </div>
     </div>
   );
