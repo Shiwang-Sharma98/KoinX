@@ -5,6 +5,7 @@ import KoinXBanner from "../components/KoinXBanner";
 import BitcoinStats from "../components/BitcoinStats";
 import Sentiment from "../components/Sentiment";
 
+
 const Home = () => {
   const [bitcoinData, setBitcoinData] = useState(null);
 
@@ -95,6 +96,7 @@ const Home = () => {
       <div className="mt-6">
         <Sentiment></Sentiment>
       </div>
+
     </div>
   );
 };
