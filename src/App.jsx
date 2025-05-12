@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="w-screen min-h-screen flex flex-col">
       <NavBar />
+      <p>hellow</p>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
